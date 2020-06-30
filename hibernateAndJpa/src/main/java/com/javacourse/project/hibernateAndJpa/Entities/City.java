@@ -19,14 +19,16 @@ public class City {
 	private String population;
 
 	public City(int id, String name, String countryCode, String district, String population) {
-
+super();
 		this.id = id;
 		this.name = name;
 		this.countryCode = countryCode;
 		this.district = district;
 		this.population = population;
 	}
-
+public City() {
+	
+}
 	public int getId() {
 		return id;
 	}
