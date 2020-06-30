@@ -10,5 +10,5 @@ public interface ICityDal {
 	
 	void update(City city);
 	void delete(City city);
-	
+	City getById(int id);
 }
